@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "beers-fe"
+  "defaultProject": "beers-fe",
+  "cli": {
+    "analytics": "147c068d-622b-468f-8ed5-f8071ae135b6"
+  }
 }
