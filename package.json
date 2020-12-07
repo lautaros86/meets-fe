@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "docker:build": "docker build -t lautaros86/angular-app .",
+    "docker:run": "docker run -d -it -p 80:80/tcp --name angular-app lautaros86/angular-app:latest"
   },
   "private": true,
   "dependencies": {
